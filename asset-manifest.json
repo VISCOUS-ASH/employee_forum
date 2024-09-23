@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/employee_forum/static/css/main.8aa94e39.css",
+    "main.js": "/employee_forum/static/js/main.f9837081.js",
+    "index.html": "/employee_forum/index.html",
+    "main.8aa94e39.css.map": "/employee_forum/static/css/main.8aa94e39.css.map",
+    "main.f9837081.js.map": "/employee_forum/static/js/main.f9837081.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8aa94e39.css",
+    "static/js/main.f9837081.js"
+  ]
+}
