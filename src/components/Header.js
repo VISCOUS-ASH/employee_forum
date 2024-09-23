@@ -9,7 +9,7 @@ const Header = () => {
     <header className="flex justify-between items-center bg-blue-500 p-4 shadow-md">
       {/* Logo Section */}
       <div className="flex items-center">
-        <img src="./images/timetable.png" alt="Logo" className="h-8 w-8 mr-3" />
+        <img src="https://ibb.co/bBHWXvp" alt="Logo" className="h-8 w-8 mr-3" />
         <h1 className="text-white text-lg font-bold">Task Manager</h1>
       </div>
 
@@ -39,7 +39,7 @@ const Header = () => {
       <div className="flex items-center space-x-3">
         <span className="text-white font-medium">Ashutosh Singh</span>
         <img
-          src="./images/photo_bg.png"
+          src="https://ibb.co/grZkyKz"
           alt="Profile"
           className="h-8 w-8 rounded-full"
         />
