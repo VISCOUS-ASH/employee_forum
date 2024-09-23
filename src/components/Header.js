@@ -1,8 +1,8 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { setFilter } from '../features/tasks/taskSlice';
-import timetable from '.././images/timetable.png';
-import photo_bg from '.././images/photo_bg.png';
+// import timetable from '.././images/timetable.png';
+// import photo_bg from '.././images/photo_bg.png';
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -11,7 +11,7 @@ const Header = () => {
     <header className="flex justify-between items-center bg-blue-500 p-4 shadow-md">
       {/* Logo Section */}
       <div className="flex items-center">
-        <img src={timetable} alt="Logo" className="h-8 w-8 mr-3" />
+        <img src="./images/timetable.png" alt="Logo" className="h-8 w-8 mr-3" />
         <h1 className="text-white text-lg font-bold">Task Manager</h1>
       </div>
 
@@ -41,7 +41,7 @@ const Header = () => {
       <div className="flex items-center space-x-3">
         <span className="text-white font-medium">Ashutosh Singh</span>
         <img
-          src={photo_bg}
+          src="./image/photo_bg.png"
           alt="Profile"
           className="h-8 w-8 rounded-full"
         />
