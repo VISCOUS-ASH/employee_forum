@@ -11,7 +11,7 @@ const Header = () => {
     <header className="flex justify-between items-center bg-blue-500 p-4 shadow-md">
       {/* Logo Section */}
       <div className="flex items-center">
-        <img src="https://viscous-ash.github.io/images/timetable.png" alt="Logo" className="h-8 w-8 mr-3" />
+        <img src="https://img.icons8.com/cute-clipart/64/overtime.png" alt="Logo" className="h-8 w-8 mr-3" />
         <h1 className="text-white text-lg font-bold">Task Manager</h1>
       </div>
 
@@ -41,7 +41,7 @@ const Header = () => {
       <div className="flex items-center space-x-3">
         <span className="text-white font-medium">Hi,Ashutosh Singh</span>
         <img
-          src="https://viscous-ash.github.io/images/photobg.png"
+          src="https://img.icons8.com/color/48/user.png"
           alt="Profile"
           className="h-8 w-8 rounded-full"
         />
