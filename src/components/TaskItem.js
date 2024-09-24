@@ -21,16 +21,16 @@ const TaskItem = ({ task }) => {
   };
 
   return (
-    <div className={`flex justify-between items-center p-4 mb-3 rounded-md shadow ${task.completed ? 'bg-gray-200' : 'bg-white'}`}>
+    <div className={`flex justify-between items-center p-2 md:p-4 mb-3 rounded-md shadow ${task.completed ? 'bg-gray-200' : 'bg-white'}`}>
       <span
         onClick={() => dispatch({ type: 'tasks/toggleTask', payload: task.id })}
-        className={`cursor-pointer text-lg font-medium ${task.completed ? 'line-through text-gray-500' : 'text-gray-800'}`}
+        className={`cursor-pointer text-sm md:text-lg font-medium ${task.completed ? 'line-through text-gray-500' : 'text-gray-800'}`}
       >
         {task.title}
       </span>
       <button
         onClick={handleDelete}
-        className="px-4 py-2 bg-red-500 text-white font-semibold rounded-md shadow-sm hover:bg-red-600 transition duration-300"
+        className="px-3 md:px-4 py-1 md:py-2 bg-red-500 text-white font-semibold rounded-md shadow-sm hover:bg-red-600 transition duration-300"
       >
         Delete
       </button>

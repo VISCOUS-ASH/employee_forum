@@ -23,11 +23,11 @@ const AddTask = () => {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           placeholder="Enter a new task"
-          className="w-full p-4 border border-gray-300 rounded-md shadow-lg transition duration-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:shadow-outline hover:shadow-xl"
+          className="w-full p-3 md:p-4 border border-gray-300 rounded-md shadow-lg transition duration-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:shadow-outline hover:shadow-xl"
         />
         <button
           type="submit"
-          className="px-6 py-2 bg-green-500 text-white font-semibold rounded-md shadow-md hover:bg-green-600 transition duration-300 transform hover:scale-105"
+          className="px-4 md:px-6 py-2 bg-green-500 text-white font-semibold rounded-md shadow-md hover:bg-green-600 transition duration-300 transform hover:scale-105"
         >
           Add Task
         </button>

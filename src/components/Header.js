@@ -1,22 +1,20 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { setFilter } from '../features/tasks/taskSlice';
-// import timetable from '.././images/timetable.png';
-// import photo_bg from '.././images/photo_bg.png';
 
 const Header = () => {
   const dispatch = useDispatch();
 
   return (
-    <header className="flex justify-between items-center bg-blue-500 p-4 shadow-md">
+    <header className="flex flex-col md:flex-row justify-between items-center bg-blue-500 p-4 shadow-md">
       {/* Logo Section */}
-      <div className="flex items-center">
+      <div className="flex items-center mb-4 md:mb-0">
         <img src="https://img.icons8.com/cute-clipart/64/overtime.png" alt="Logo" className="h-8 w-8 mr-3" />
         <h1 className="text-white text-lg font-bold">Task Manager</h1>
       </div>
 
       {/* Filters Section */}
-      <div className="flex space-x-4">
+      <div className="flex space-x-2 md:space-x-4 mb-4 md:mb-0">
         <button
           onClick={() => dispatch(setFilter('all'))}
           className="text-white font-medium hover:text-gray-300"
@@ -39,7 +37,7 @@ const Header = () => {
 
       {/* User Profile Section */}
       <div className="flex items-center space-x-3">
-        <span className="text-white font-medium">Hi,Ashutosh Singh</span>
+        <span className="text-white font-medium">Hi, Ashutosh Singh</span>
         <img
           src="https://img.icons8.com/color/48/user.png"
           alt="Profile"
